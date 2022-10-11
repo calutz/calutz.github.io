@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    background-color: purple;
+    color: yellow;
+    font-size: 25px;
+}
+
+h1 {
+    color: silver;
+}
+
+ul {
+    color: orchid;
+    background-color: red;
+}
+
+h2 {
+    color: blue;
+    font-family: cursive;
+}
+
+.para {
+    background-color: aqua;
+}
+
+#head {
+    background-color:red;
+    text-align: center;
+}
+
+#quote {
+    background-color: gold;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+
+
+a.pseudo:visited {
+    color: yellow;
+}
+
+a.pseudo:hover {
+    color: skyblue;
+}
+
+a.pseudo:active {
+    color: purple;
+}
+
+.outer {
+    background-color: aquamarine;
+    width: 400px;
+    border: 3px solid magenta;
+    padding: 3px;
+    margin: 5px;
+}
+
+nav.sticky {
+    position:sticky;
+    top: 0px;
+    padding: 3px;
+    background-color: aquamarine;
+    border: 3px solid magenta;
+}
+
+.surround {
+    background-color: gold;
+    color: pink;
+
+}
+
+#image {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#video {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 100px;
+    margin-left: 5px;
+}
+
+
+
+@keyframes animation {
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  h1 {
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+
+  h3.absolute {
+    position: absolute;
+  top: 300px;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  border: 5px solid gold;
+  }
