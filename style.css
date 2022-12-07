@@ -5,13 +5,15 @@ body {
 }
 
 p {
-    background-color: purple;
-    color: yellow;
+    background-color: aquamarine;
+    color: black;
+    border: 3px solid aqua;
     font-size: 25px;
 }
 
 h1 {
-    color: silver;
+    color: black;
+    position: center;
 }
 
 ul {
@@ -57,17 +59,51 @@ a.pseudo:active {
 .outer {
     background-color: aquamarine;
     width: 400px;
-    border: 3px solid magenta;
+    border: 3px solid aqua;
     padding: 3px;
     margin: 5px;
+    position: center;
 }
+
+.inner {
+    background-color: aquamarine;
+    width: 400px;
+    border: 3px solid aqua;
+    padding: 3px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.lefter {
+    background-color: aquamarine;
+    width: 500px;
+    border: 3px solid aqua;
+    padding: 3px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-align : left;
+}
+
+.righter {
+    background-color: aquamarine;
+    width: 500px;
+    border: 3px solid aqua;
+    padding: 3px;
+    margin-top: 200px;
+    margin-left: 50px;
+    box-align : right;
+    
+
+}
+
 
 nav.sticky {
     position:sticky;
     top: 0px;
     padding: 3px;
     background-color: aquamarine;
-    border: 3px solid magenta;
+    border: 3px solid aqua;
 }
 
 .surround {
@@ -100,7 +136,8 @@ nav.sticky {
   100% {background-color:red; left:0px; top:0px;}
   }
   
-  h1 {
+  
+  h4 {
     width: 300px;
     height: 50px;
     background-color: red;
@@ -108,13 +145,22 @@ nav.sticky {
     animation-duration: 4s;
     animation-iteration-count: infinite;
   }
+ 
 
-
-  h3.absolute {
+  .absolute1 {
     position: absolute;
-  top: 300px;
-  right: 0;
-  width: 200px;
-  height: 50px;
-  border: 5px solid gold;
+  top: 150px;
+  right: 50;
+  width: 600px;
+  height: 400px;
+  
+  }
+
+  .absolute2 {
+    position: absolute;
+  top: 650px;
+  right: 500;
+  width: 600px;
+  height: 400px;
+    box-align: left;
   }
